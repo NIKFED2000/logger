@@ -9,7 +9,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-
 public class Logger {
     final String Filename_SD = "Log_File";
     final String DIR_SD = "LastLogs";
