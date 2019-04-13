@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             File sdFile = new File(sdPath, Filename_SD);
             BufferedWriter log = new BufferedWriter(new FileWriter(sdFile));
 
-            log.write("somemasse");
+            log.write(Log.VERBOSE);
             log.close();
 
 
